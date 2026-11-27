@@ -50,6 +50,11 @@
       "verbs": ["GET", "POST"],
       "selector": "referenced_by",
       "values": ["io.cozy.apps/mail"]
+    },
+    "mailAttachments": {
+      "description": "Required to show the attachments saved to Twake Drive",
+      "type": "io.cozy.mails.attachments",
+      "verbs": ["GET"]
     }
   },
   "mobile": {
